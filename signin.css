@@ -1,0 +1,342 @@
+body{
+    background-image: url(signin-bg.jpeg)
+}
+.base{
+    margin: 0;
+    padding: 0;
+
+}
+.base img{
+    width: 167px;
+    height: auto;
+    position: absolute;
+    left: 91px;
+    top: 20px;
+}
+.base select{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 1187px;
+    top: 35px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+#btn{
+    width: 73px;
+    height: 29px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 1298px;
+    top: 33px;
+    border-color: red;
+}
+.heading{
+    width: 750px;
+    height: auto;
+    position: absolute;
+    left: 158px;
+    top: 190px;
+    
+}
+#heading-1{
+    color: white;
+    font-size: 70px;
+
+}
+#heading-2{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 85px;
+
+}
+#caption{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 211px;
+    left: 5px;
+}
+.email{
+    background-color: black; 
+    width: 1144px;
+    height: 156px;
+    position: absolute;
+    left: 171px;
+    top: 534px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, red, darkblue) 1;    border-radius: 8px; 
+    border-radius: 5px;
+    
+
+}
+.email h3{
+    position: absolute;
+    left: 20px;
+    top: 1px;
+    color: white;
+    font-size: 22px;
+}
+#email{
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 388px;
+    height: 51px;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    font-size: 15px;
+}
+#email-btn{
+    width: 215px;
+    height: 58px;
+    position: absolute;
+    left: 425px;
+    top: 68px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 25px;
+
+}
+.category{
+    background: rgba(0, 8, 29, 1);
+    position: absolute;
+    top: 760px;
+    left: 62px;
+    width: 1313px;
+    height: 2701px;
+    border-radius: 10px;
+}
+.category-1 h1{
+    color: white;
+    width: 486px;
+    height: auto;
+    position: absolute;
+    left: 113px;
+    top: 127px;
+    font-size: 52px;
+}
+.category-1 h3{
+    color: white;
+    width: 556px;
+    height: auto;
+    position: absolute;
+    left: 115px;
+    top: 225px;
+    font-size: 21px;
+}
+.category-1 img{
+    width: 540px;
+    height: auto;
+    position: absolute;
+    left:  694px;
+    top: 13px;
+}
+.category-1 h4{
+    color: white;
+    width: 502px;
+    height: auto;
+    position: absolute;
+    left: 115px;
+    top: 419px;
+    opacity: 30%;
+}
+.category-2 img{
+    width: 567px;
+    height: auto;
+    position: absolute;
+    left: 122px;
+    top: 484px;
+}
+.category-2 h1{
+    color: white;
+    width: 486px;
+    height: auto;
+    position: absolute;
+    left: 672px;
+    top: 590px;
+    font-size: 54px;
+}
+.category-2 h3{
+    color: white;
+    width: 573px;
+    height: auto;
+    position: absolute;
+    left: 676px;
+    top: 683px;
+    font-size: 21px;
+}
+.category-2 h4{
+    color: white;
+    width: 502px;
+    height: auto;
+    position: absolute;
+    left: 115px;
+    top: 905px;
+    opacity: 30%;
+}
+.category-3 img{
+    width: 506px;
+    height: auto;
+    position: absolute;
+    left: 726px;
+    top: 985px;
+}
+.category-3 h1{
+    color: white;
+    width: 538px;
+    height: auto;
+    position: absolute;
+    left: 158px;
+    top: 1089px;
+    font-size: 52px;
+}
+.category-3 h3{
+    color: white;
+    width: 573px;
+    height: auto;
+    position: absolute;
+    left: 161px;
+    top: 1188px;
+    font-size: 21px;
+}
+.category-3 h4{
+    color: white;
+    width: 502px;
+    height: auto;
+    position: absolute;
+    left: 115px;
+    top: 1365px;
+    opacity: 30%;
+}
+.category-4 img{
+    width: 583px;
+    height: auto;
+    position: absolute;
+    left: 149px;
+    top: 1430px;
+}
+.category-4 h1{
+    color: white;
+    width: 666px;
+    position: absolute;
+    left: 689px;
+    top: 1498px;
+    font-size: 52px;
+}
+.category-4 h3{
+    color: white;
+    width: 533px;
+    position: absolute;
+    left: 694px;
+    top: 1655px;
+    font-size: 21px;
+}
+.category-5 h1{
+    color: white;
+    width: 666px;
+    height: auto;
+    position: absolute;
+    left: 136px;
+    top: 1921px;
+    font-size: 42px;
+}
+#first{
+    width: 1062px;
+    height: 68px;
+    position: absolute;
+    left: 130px;
+    top: 2014px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);;
+    background-color: rgba(19, 33, 68, 1);;
+    border: none;
+} 
+#second{
+    width: 1062px;
+    height: 68px;
+    position: absolute;
+    left: 130px;
+    top: 2089px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);;
+    background-color: rgba(19, 33, 68, 1);;
+    border: none;
+}
+#third{
+    width: 1062px;
+    height: 68px;
+    position: absolute;
+    left: 130px;
+    top: 2164px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);;
+    background-color: rgba(19, 33, 68, 1);;
+    border: none;
+}
+#four{
+    width: 1062px;
+    height: 68px;
+    position: absolute;
+    left: 130px;
+    top: 2239px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);;
+    background-color: rgba(19, 33, 68, 1);;
+    border: none;
+}
+#five{
+    width: 1062px;
+    height: 68px;
+    position: absolute;
+    left: 130px;
+    top: 2314px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);;
+    background-color: rgba(19, 33, 68, 1);;
+    border: none;
+}
+#six{
+    width: 1062px;
+    height: 68px;
+    position: absolute;
+    left: 130px;
+    top: 2389px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);;
+    background-color: rgba(19, 33, 68, 1);;
+    border: none;
+}
+.email-2{
+    /* color: white; */
+    /* background-color: black;  */
+    width: 1144px;
+    height: 156px;
+    position: absolute;
+    left: 111px;
+    top: 2520px;
+    /* border: 3px solid; */
+    /* border-image: linear-gradient(to right, red, darkblue) 1;    border-radius: 8px;  */
+    /* border-radius: 5px; */
+}
+.email-2 h3{
+        color: white;
+    position: absolute;
+    left: 23px;
+    top: 4px;
+    font-size: 22px;
+}
+
+
+
+
+

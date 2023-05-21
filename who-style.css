@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
+  }
+body{
+    width: 100%;
+    height: 725px;
+    background: black;
+}
+
+.header {
+color: white ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: -512px;
+font-family: myFirstFont;
+font-size: 22px;
+}
+
+.base{
+    width: 100%;
+    height: auto;
+}
+.img{
+    width: 100%;
+    height: 677px;
+    display: flex;
+    gap: 20px;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.img1{
+    width: 145px;
+    height: auto;
+    border-radius: 5px;
+    border:solid 3px transparent;
+}
+img:hover{
+    border-color: white;
+}
+.label {
+    width: 60%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    margin-left: 353px;
+    margin-top: 203px;
+    opacity: 50%;
+    gap: 110px;
+    font-size: 20px;
+    font-family: myFirstFont;
+
+}
+/* .btn{
+    color: white;
+    width: 164px;
+    height: 34px;
+    background-color: black;
+    border-color: white;
+    margin-top: 145px;
+    margin-left: 668px;
+} */
+.btn-1{
+    width: 172px;
+    height: 42px;
+    background-color: black;
+    color: grey;
+    border-color: grey;
+    margin-top: 89px;
+    margin-left: 638px;
+    /* opacity: 50%; */
+    font-size: 16px;
+}
+.btn-1:hover{
+    border-color: white;
+    color: white;
+    opacity: 90%;
+}
+
